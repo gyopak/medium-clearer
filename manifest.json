@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Clear Medium articles",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://medium.com/*",
+        "https://*.medium.com/*"
+      ],
+      "js": ["clearer.js"]
+    }
+  ],
+  "version": "0.1"
+}
